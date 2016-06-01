@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_n0S7cSgIEeaIqd9lJ0mJXw" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_n0S7cigIEeaIqd9lJ0mJXw" bindingContexts="_n0S7dCgIEeaIqd9lJ0mJXw">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList/>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;&#x6d4f;&#x89c8;&#x7ed3;&#x6784;&#x5316;&#x6570;&#x636e;&#x7684;&#x65b9;&#x6cd5;.py&quot; tooltip=&quot;pythonfirst/BeautifulSoup&#x8303;&#x4f8b;/&#x6d4f;&#x89c8;&#x7ed3;&#x6784;&#x5316;&#x6570;&#x636e;&#x7684;&#x65b9;&#x6cd5;.py&quot;>&#xD;&#xA;&lt;persistable path=&quot;/pythonfirst/BeautifulSoup&#x8303;&#x4f8b;/&#x6d4f;&#x89c8;&#x7ed3;&#x6784;&#x5316;&#x6570;&#x636e;&#x7684;&#x65b9;&#x6cd5;.py&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;BeautifulSoup&#xff08;&#xff09;.py&quot; tooltip=&quot;pythonfirst/BeautifulSoup&#x8303;&#x4f8b;/BeautifulSoup&#xff08;&#xff09;.py&quot;>&#xD;&#xA;&lt;persistable path=&quot;/pythonfirst/BeautifulSoup&#x8303;&#x4f8b;/BeautifulSoup&#xff08;&#xff09;.py&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;1&#x6700;&#x7b80;&#x5355;&#x7684;&#x65b9;&#x5f0f;.py&quot; tooltip=&quot;pythonfirst/spidertest1/1&#x6700;&#x7b80;&#x5355;&#x7684;&#x65b9;&#x5f0f;.py&quot;>&#xD;&#xA;&lt;persistable path=&quot;/pythonfirst/spidertest1/1&#x6700;&#x7b80;&#x5355;&#x7684;&#x65b9;&#x5f0f;.py&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_n0S7cigIEeaIqd9lJ0mJXw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_oFvQwygIEeaIqd9lJ0mJXw" label="%trimmedwindow.label.eclipseSDK" x="208" y="208" width="1024" height="768">
@@ -8,10 +8,11 @@
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
     <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workingSets/>"/>
-    <persistedState key="aggregateWorkingSetId"/>
+    <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1464794246240"/>
     <persistedState key="show_in_time" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;show_in_time/>"/>
     <tags>topLevel</tags>
-    <children xsi:type="basic:PartSashContainer" xmi:id="_oFvQwygIEeaIqd9lJ0mJXw" selectedElement="_oFvQxSgIEeaIqd9lJ0mJXw" horizontal="true">
+    <tags>shellMaximized</tags>
+    <children xsi:type="basic:PartSashContainer" xmi:id="_oFvQwygIEeaIqd9lJ0mJXw" selectedElement="_oFvQxCgIEeaIqd9lJ0mJXw" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_oFvQxCgIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_oVF7YCgIEeaIqd9lJ0mJXw">
         <children xsi:type="advanced:Perspective" xmi:id="_oVF7YCgIEeaIqd9lJ0mJXw" elementId="org.eclipse.jst.j2ee.J2EEPerspective" selectedElement="_oVF7YSgIEeaIqd9lJ0mJXw" label="Java EE" iconURI="platform:/plugin/org.eclipse.jst.j2ee.ui/icons/full/cview16/j2ee_perspective.gif">
           <persistedState key="persp.hiddenItems" value="persp.hideToolbarSC:org.eclipse.debug.ui.commands.RunToLine,persp.hideToolbarSC:org.eclipse.jdt.ui.actions.OpenProjectWizard,persp.hideToolbarSC:print,persp.hideToolbarSC:org.eclipse.ui.edit.text.toggleShowSelectedElementOnly,"/>
@@ -69,22 +70,23 @@
           <tags>persp.newWizSC:org.eclipse.m2e.core.wizards.Maven2ProjectWizard</tags>
           <tags>persp.showIn:org.eclipse.tm.terminal.view.ui.TerminalsView</tags>
           <tags>persp.actionSet:org.eclipse.wst.ws.explorer.explorer</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_oVF7YSgIEeaIqd9lJ0mJXw" selectedElement="_oVF7YigIEeaIqd9lJ0mJXw" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_oVF7YSgIEeaIqd9lJ0mJXw" selectedElement="_oVF7ZygIEeaIqd9lJ0mJXw" horizontal="true">
             <children xsi:type="basic:PartStack" xmi:id="_oVF7YigIEeaIqd9lJ0mJXw" elementId="topLeft" containerData="2500" selectedElement="_oVF7YygIEeaIqd9lJ0mJXw">
               <children xsi:type="advanced:Placeholder" xmi:id="_oVF7YygIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_oTmuCigIEeaIqd9lJ0mJXw"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_oVF7ZCgIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.views.ResourceNavigator" toBeRendered="false" ref="_oTv3kCgIEeaIqd9lJ0mJXw"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_oVF7ZSgIEeaIqd9lJ0mJXw" elementId="org.eclipse.jdt.ui.TypeHierarchy" toBeRendered="false" ref="_oTv3kSgIEeaIqd9lJ0mJXw"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_oVF7ZigIEeaIqd9lJ0mJXw" elementId="org.eclipse.jdt.ui.PackagesView" toBeRendered="false" ref="_oU8KYCgIEeaIqd9lJ0mJXw"/>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_oVF7ZygIEeaIqd9lJ0mJXw" containerData="7500">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_oVF7aCgIEeaIqd9lJ0mJXw" containerData="7000" horizontal="true">
-                <children xsi:type="advanced:Placeholder" xmi:id="_oVF7aSgIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.editorss" containerData="7000" ref="_oTc8oCgIEeaIqd9lJ0mJXw"/>
-                <children xsi:type="basic:PartStack" xmi:id="_oVF7aigIEeaIqd9lJ0mJXw" elementId="topRight" containerData="3000" selectedElement="_oVF7aygIEeaIqd9lJ0mJXw">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_oVF7ZygIEeaIqd9lJ0mJXw" containerData="7500" selectedElement="_oVF7aCgIEeaIqd9lJ0mJXw">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_oVF7aCgIEeaIqd9lJ0mJXw" containerData="7000" selectedElement="_oVF7aSgIEeaIqd9lJ0mJXw" horizontal="true">
+                <children xsi:type="advanced:Placeholder" xmi:id="_oVF7aSgIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.editorss" containerData="9000" ref="_oTc8oCgIEeaIqd9lJ0mJXw"/>
+                <children xsi:type="basic:PartStack" xmi:id="_oVF7aigIEeaIqd9lJ0mJXw" elementId="topRight" containerData="1000" selectedElement="_oVF7aygIEeaIqd9lJ0mJXw">
                   <children xsi:type="advanced:Placeholder" xmi:id="_oVF7aygIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.views.ContentOutline" ref="_oU8KbCgIEeaIqd9lJ0mJXw"/>
                   <children xsi:type="advanced:Placeholder" xmi:id="_oVF7bCgIEeaIqd9lJ0mJXw" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" ref="_oU8KbSgIEeaIqd9lJ0mJXw"/>
                 </children>
               </children>
-              <children xsi:type="basic:PartStack" xmi:id="_oVF7bSgIEeaIqd9lJ0mJXw" elementId="bottomRight" containerData="3000" selectedElement="_oVF7bigIEeaIqd9lJ0mJXw">
+              <children xsi:type="basic:PartStack" xmi:id="_oVF7bSgIEeaIqd9lJ0mJXw" elementId="bottomRight" containerData="3000" selectedElement="_oVF7dSgIEeaIqd9lJ0mJXw">
+                <tags>PyDev</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_oVF7bigIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.views.AllMarkersView" ref="_oU8KYSgIEeaIqd9lJ0mJXw"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_oVF7bygIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.views.PropertySheet" ref="_oU8KYigIEeaIqd9lJ0mJXw"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_oVF7cCgIEeaIqd9lJ0mJXw" elementId="org.eclipse.wst.server.ui.ServersView" ref="_oU8KYygIEeaIqd9lJ0mJXw"/>
@@ -92,17 +94,17 @@
                 <children xsi:type="advanced:Placeholder" xmi:id="_oVF7cigIEeaIqd9lJ0mJXw" elementId="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" ref="_oU8KZSgIEeaIqd9lJ0mJXw"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_oVF7cygIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.views.ProblemView" toBeRendered="false" ref="_oU8KZigIEeaIqd9lJ0mJXw"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_oVF7dCgIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.views.TaskList" toBeRendered="false" ref="_oU8KZygIEeaIqd9lJ0mJXw"/>
-                <children xsi:type="advanced:Placeholder" xmi:id="_oVF7dSgIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.console.ConsoleView" toBeRendered="false" ref="_oU8KaCgIEeaIqd9lJ0mJXw"/>
+                <children xsi:type="advanced:Placeholder" xmi:id="_oVF7dSgIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.console.ConsoleView" ref="_oU8KaCgIEeaIqd9lJ0mJXw"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_oVF7digIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.views.BookmarkView" toBeRendered="false" ref="_oU8KaSgIEeaIqd9lJ0mJXw"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_oVF7dygIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.views.ProgressView" toBeRendered="false" ref="_oU8KaigIEeaIqd9lJ0mJXw"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_oVF7eCgIEeaIqd9lJ0mJXw" elementId="org.eclipse.search.ui.views.SearchView" toBeRendered="false" ref="_oU8KaygIEeaIqd9lJ0mJXw"/>
+                <children xsi:type="advanced:Placeholder" xmi:id="_NithMSgMEea1oaAbEFVW2w" elementId="org.python.pydev.debug.pyunit.pyUnitView" ref="_NithMCgMEea1oaAbEFVW2w"/>
               </children>
             </children>
           </children>
         </children>
       </children>
       <children xsi:type="basic:PartStack" xmi:id="_oFvQxSgIEeaIqd9lJ0mJXw" elementId="stickyFolderRight" containerData="2500" selectedElement="_oFvQxygIEeaIqd9lJ0mJXw">
-        <tags>active</tags>
         <children xsi:type="advanced:Placeholder" xmi:id="_oFvQxigIEeaIqd9lJ0mJXw" elementId="org.eclipse.help.ui.HelpView" toBeRendered="false" ref="_oFvQwCgIEeaIqd9lJ0mJXw"/>
         <children xsi:type="advanced:Placeholder" xmi:id="_oFvQxygIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.internal.introview" ref="_oFvQwSgIEeaIqd9lJ0mJXw"/>
         <children xsi:type="advanced:Placeholder" xmi:id="_oFvQyCgIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.cheatsheets.views.CheatSheetView" toBeRendered="false" ref="_oFvQwigIEeaIqd9lJ0mJXw"/>
@@ -116,7 +118,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view>&#xD;&#xA;&lt;presentation currentPage=&quot;root&quot; restore=&quot;true&quot;/>&#xD;&#xA;&lt;standbyPart/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
       <tags>activeOnClose</tags>
       <menus xmi:id="_okS1ACgIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.internal.introview">
         <tags>ViewMenu</tags>
@@ -128,14 +129,29 @@
       <tags>View</tags>
       <tags>categoryTag:Help</tags>
     </sharedElements>
-    <sharedElements xsi:type="advanced:Area" xmi:id="_oTc8oCgIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.editorss">
-      <children xsi:type="basic:PartStack" xmi:id="_oTc8oSgIEeaIqd9lJ0mJXw" elementId="org.eclipse.e4.primaryDataStack">
+    <sharedElements xsi:type="advanced:Area" xmi:id="_oTc8oCgIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.editorss" selectedElement="_oTc8oSgIEeaIqd9lJ0mJXw">
+      <children xsi:type="basic:PartStack" xmi:id="_oTc8oSgIEeaIqd9lJ0mJXw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_VqI7UCgMEeaqZYWAPD4DOw">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
+        <tags>active</tags>
+        <children xsi:type="basic:Part" xmi:id="_M9NncCgMEea1oaAbEFVW2w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="BeautifulSoup&#xff08;&#xff09;" iconURI="platform:/plugin/org.python.pydev/icons/python_file.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;BeautifulSoup&#xff08;&#xff09;.py&quot; partName=&quot;BeautifulSoup&#xff08;&#xff09;&quot; title=&quot;BeautifulSoup&#xff08;&#xff09;&quot; tooltip=&quot;pythonfirst/BeautifulSoup&#x8303;&#x4f8b;/BeautifulSoup&#xff08;&#xff09;.py&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/pythonfirst/BeautifulSoup&#x8303;&#x4f8b;/BeautifulSoup&#xff08;&#xff09;.py&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.python.pydev.editor.PythonEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_VqI7UCgMEeaqZYWAPD4DOw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="&#x6d4f;&#x89c8;&#x7ed3;&#x6784;&#x5316;&#x6570;&#x636e;&#x7684;&#x65b9;&#x6cd5;" iconURI="platform:/plugin/org.python.pydev/icons/python_file.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;&#x6d4f;&#x89c8;&#x7ed3;&#x6784;&#x5316;&#x6570;&#x636e;&#x7684;&#x65b9;&#x6cd5;.py&quot; partName=&quot;&#x6d4f;&#x89c8;&#x7ed3;&#x6784;&#x5316;&#x6570;&#x636e;&#x7684;&#x65b9;&#x6cd5;&quot; title=&quot;&#x6d4f;&#x89c8;&#x7ed3;&#x6784;&#x5316;&#x6570;&#x636e;&#x7684;&#x65b9;&#x6cd5;&quot; tooltip=&quot;pythonfirst/BeautifulSoup&#x8303;&#x4f8b;/&#x6d4f;&#x89c8;&#x7ed3;&#x6784;&#x5316;&#x6570;&#x636e;&#x7684;&#x65b9;&#x6cd5;.py&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/pythonfirst/BeautifulSoup&#x8303;&#x4f8b;/&#x6d4f;&#x89c8;&#x7ed3;&#x6784;&#x5316;&#x6570;&#x636e;&#x7684;&#x65b9;&#x6cd5;.py&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;503&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.python.pydev.editor.PythonEditor</tags>
+          <tags>removeOnHide</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
+        </children>
       </children>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_oTmuCigIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.navigator.ProjectExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Project Explorer" iconURI="platform:/plugin/org.eclipse.ui.navigator.resources/icons/full/eview16/resource_persp.gif" tooltip="" closeable="true">
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;/>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; currentWorkingSetName=&quot;Aggregate for window 1464794246240&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <menus xmi:id="_oV1iQCgIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.navigator.ProjectExplorer">
@@ -157,14 +173,14 @@
       <tags>categoryTag:Java Browsing</tags>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_oU8KYSgIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.views.AllMarkersView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Markers" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/problems_view.png" tooltip="" closeable="true">
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.allSeverityField&quot; categoryGroup=&quot;org.eclipse.ui.ide.type&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.allMarkersGenerator&quot; partName=&quot;Markers&quot;>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.allSeverityField=&quot;300&quot; org.eclipse.ui.ide.locationField=&quot;90&quot; org.eclipse.ui.ide.markerType=&quot;90&quot; org.eclipse.ui.ide.pathField=&quot;120&quot; org.eclipse.ui.ide.resourceField=&quot;90&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.allSeverityField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.allSeverityField&quot; categoryGroup=&quot;org.eclipse.ui.ide.type&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.allMarkersGenerator&quot; partName=&quot;Markers&quot;>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;PyDev Project Error (1 item)&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.allSeverityField=&quot;300&quot; org.eclipse.ui.ide.locationField=&quot;90&quot; org.eclipse.ui.ide.markerType=&quot;90&quot; org.eclipse.ui.ide.pathField=&quot;120&quot; org.eclipse.ui.ide.resourceField=&quot;90&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.allSeverityField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <menus xmi:id="_obzAUCgIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.views.AllMarkersView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_obzAUSgIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.views.AllMarkersView"/>
+      <toolbar xmi:id="_obzAUSgIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.views.AllMarkersView" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_oU8KYigIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.views.PropertySheet" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Properties" iconURI="platform:/plugin/org.eclipse.ui.views/icons/full/eview16/prop_ps.png" tooltip="" closeable="true">
       <tags>View</tags>
@@ -191,8 +207,14 @@
       <tags>categoryTag:General</tags>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_oU8KaCgIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.console.ConsoleView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Console" iconURI="platform:/plugin/org.eclipse.ui.console/icons/full/cview16/console_view.png" tooltip="" closeable="true">
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <menus xmi:id="_NoYrYCgMEea1oaAbEFVW2w" elementId="org.eclipse.ui.console.ConsoleView">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_NoYrYSgMEea1oaAbEFVW2w" elementId="org.eclipse.ui.console.ConsoleView"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_oU8KaSgIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.views.BookmarkView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Bookmarks" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/bkmrk_nav.png" tooltip="" closeable="true">
       <tags>View</tags>
@@ -220,6 +242,16 @@
       <tags>View</tags>
       <tags>categoryTag:Mylyn</tags>
     </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_NithMCgMEea1oaAbEFVW2w" elementId="org.python.pydev.debug.pyunit.pyUnitView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="PyUnit" iconURI="platform:/plugin/org.python.pydev.debug/icons/pyunit.png" tooltip="" closeable="true">
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
+      <tags>View</tags>
+      <tags>categoryTag:PyDev</tags>
+      <menus xmi:id="_NjCRUCgMEea1oaAbEFVW2w" elementId="org.python.pydev.debug.pyunit.pyUnitView">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_NjC4YCgMEea1oaAbEFVW2w" elementId="org.python.pydev.debug.pyunit.pyUnitView" visible="false"/>
+    </sharedElements>
     <trimBars xmi:id="_oF5BwCgIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.main.toolbar">
       <children xsi:type="menu:ToolBar" xmi:id="_oJw1ICgIEeaIqd9lJ0mJXw" elementId="group.file" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -227,7 +259,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_oJw1IigIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_oJ6mJygIEeaIqd9lJ0mJXw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_n02_dygIEeaIqd9lJ0mJXw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_SOXYACgMEeaqZYWAPD4DOw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_n02_dygIEeaIqd9lJ0mJXw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_oJw1IygIEeaIqd9lJ0mJXw" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -254,7 +286,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_oJw1JygIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_oJ6mMSgIEeaIqd9lJ0mJXw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_n02_GCgIEeaIqd9lJ0mJXw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_SOXYCigMEeaqZYWAPD4DOw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_n02_GCgIEeaIqd9lJ0mJXw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_oJw1KCgIEeaIqd9lJ0mJXw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
