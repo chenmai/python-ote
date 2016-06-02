@@ -1,8 +1,8 @@
-INSTUPspidertest1.2使用Request的方式
-E:\git\python-ote\workspace\pythonfirst\spidertest1\2使用Request的方式.py
-INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0&&3|5|2|0
-spidertest1.2使用Request的方式=2
-the_page=5
-response=3
-buff=4
-req=1
+INSTUPspider1.main
+E:\git\python-ote\workspace\pythonfirst\spider1\main.py
+INFOS:&&3|1|2|0&&3|3|2|0&&3|3|2|0&&3|4|2|0&&3|5|2|0&&3|3|2|0
+result=5
+bank=3
+spider1.main=2
+banklength=4
+rooturl=1

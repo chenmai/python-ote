@@ -1,0 +1,12 @@
+'''
+Created on 2016年6月1日
+
+@author: hasee
+'''
+from bs4 import BeautifulSoup
+import urllib.request
+
+url='http://baike.baidu.com/view/21087.htm'
+html_doc= urllib.request.urlopen('http://baike.baidu.com/view/21087.htm').read()
+soup = BeautifulSoup(html_doc,"html5lib")
+print(soup)

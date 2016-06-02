@@ -1,0 +1,16 @@
+'''
+Created on 2016年6月1日
+
+@author: hasee
+'''
+from bs4 import BeautifulSoup
+import urllib.request
+import re
+
+url='http://baike.baidu.com/view/21087.htm'
+html_doc= urllib.request.urlopen('http://baike.baidu.com/view/21087.htm')
+soup = BeautifulSoup(html_doc,"html5lib")
+for string in soup.strings:
+    print(repr(string))
+links = soup.find_all('a',href=re.compile(r"/view/(.+?).htm"))
+print(links)
