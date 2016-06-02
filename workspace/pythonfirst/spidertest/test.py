@@ -4,21 +4,27 @@ Created on 2016年6月1日
 @author: hasee
 '''
 from bs4 import BeautifulSoup
-from setuptools.compat import unicode
 
-soup=BeautifulSoup('<b class="boldest">Extremely bold</b>',"html.parser")
-tag=soup.b
-tag.string.replace_with("No longer bold")
-print(tag)
-# tag.string
-# print(tag.string)
-# # u'Extremely bold'
-# type(tag.string)
-# # <class 'bs4.element.NavigableString'>
-# print(type(tag.string))
-# 
-# unicode_string = unicode(tag.string)
-# print(unicode_string)
-# # u'Extremely bold'
-# type(unicode_string)
-# print(type(unicode_string))
+
+
+html_doc ="""<html><head><title>The Dormouse's story</title></head><p class="title"><b>The Dormouse's story</b></p><p class="story">Once upon a time there were three little sisters; and their names were<a href="http://example.com/elsie" class="sister" id="link1">Elsie</a>,<a href="http://example.com/lacie" class="sister" id="link2">Lacie</a> and<a href="http://example.com/tillie" class="sister" id="link3">Tillie</a>;and they lived at the bottom of a well.</p><p class="story">...</p>"""
+soup = BeautifulSoup(html_doc,"html5lib")
+
+
+
+# 节点的处理，如head部分
+head_tag = soup.head
+
+# head部分的下个节点,列表形式
+head_tag.contents
+print(head_tag.contents)
+# [<title>The Dormouse's story</title>]
+
+# 从提取的里面读取字符串
+title_tag = head_tag.contents[0]
+print(title_tag)
+# <title>The Dormouse's story</title>
+
+# 提取的标题中去掉<title></title>,列表显示
+title_tag.contents
+print(title_tag.contents)
