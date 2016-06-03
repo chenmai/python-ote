@@ -27,5 +27,5 @@ def get_new_urllist(links):
     return url_temp
 # 传入解析后的url，将其转化为url列表,返回
 
-#     返回一个url的列表
+
     

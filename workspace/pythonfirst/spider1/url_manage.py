@@ -3,47 +3,44 @@ Created on 2016年6月1日
 
 @author: hasee
 '''
-from spider1.url_parser import explain
+url_seed=[]
+url_hadused=[]
 
-urlseed=[]
-urlhadused=[]
-
-
-# 检查url是否存在于url池，在返回Ture，不在就返回False并添加至url池
-def ishad(url):
-    if (url in urlseed) or (url in urlhadused) :
-#         True代表存在
-#         print('已经存在的网址')
-#         return 1
-        pass
+def check_new_url(url):
+    if (url in url_seed)or(url in url_hadused):
+        return 1
     else:
-        urlseed.append(url) 
-#         False代表不存在，已添加
-#         print('不在url池，现在已添加,url=',url)
-#         return 0
+        url_seed.append(url)
+        return 0
+# 检查url是否已经被记录
+
+def checl_url_used(url):
+    if url in url_hadused:
+        return 1
+    else:
+        url_hadused.append(url)
+        return 0
+# 检查url是否已经被使用过
+
+def url_seed_to_hadused():
+    temp = url_seed[0]
+    url_hadused.append(url_seed[0])
+    del url_seed[0]
+    return temp 
+# 从把使用的url放入使用过的url池中,返回放入的值
 
 
-def urlseedist():
-    return urlseed        
-# 返回url池
+def length_url_seed():
+    return len(url_seed)
+# 返回url_seed的列表长度
 
-def get_seed_url():
-    return urlseed[0]
-# 获取url池的第一个url
+def length_url_hadused():
+    return len(url_hadused)
+# 返回url_hadused的列表长度
 
-def del_seed_url():
-    del urlseed[0]
-    
-# 删除url池的第一个url
+def get_url_seed():
+    return url_seed
+# 获取url_seed的url列表
 
-def url_word(url):
-    explain(url)
-# url池工作流程    
 
-def add_urlhadused(url):
-    urlhadused.append(url)
-# 添加url进已使用的url池
 
-def get_urlhadused():
-    return urlhadused
-    

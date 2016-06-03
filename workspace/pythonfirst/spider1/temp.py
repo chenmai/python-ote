@@ -26,5 +26,5 @@ while len(urlseedist())<1000:
             a=get_seed_url()[0]
             add_urlhadused(a)
             del_seed_url()
-            print(a)
+#             print(a)
 print(urlseedist())
