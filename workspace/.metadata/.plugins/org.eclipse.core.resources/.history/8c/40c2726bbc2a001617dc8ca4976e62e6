@@ -1,0 +1,11 @@
+'''
+Created on 2016年6月1日
+
+@author: hasee
+'''
+from bs4 import BeautifulSoup
+from pip._vendor.requests.api import request
+
+url='http://www.baidu.com/'
+data=request.get(url)
+print(data)

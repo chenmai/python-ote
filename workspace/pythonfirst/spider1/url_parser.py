@@ -17,7 +17,8 @@ def explain(url):
     soup = BeautifulSoup(html_doc,"html5lib")
     links = soup.find_all('a',href=re.compile(r"/view/(.+?).htm"))
 # 待会添加值一起返回
-    return links,now_url
+    titlestring=soup.title.string
+    return links,now_url,titlestring
 # 解析传入的url,从上面爬取新的网址,返回新网址    
 
 def get_new_urllist(links):
