@@ -1,0 +1,9 @@
+'''
+Created on 2016年6月11日
+
+@author: hasee
+'''
+import Tkinter
+top = Tkinter.Tk()
+# 进入消息循环
+top.mainloop()
